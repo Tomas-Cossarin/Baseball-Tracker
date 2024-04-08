@@ -1,6 +1,6 @@
 # Baseball-Tracker
 
-The objective of this program is the track and calculate the trajectory of a baseball pitch.
+The objective of this program is the track and calculate the trajectory of a baseball pitch. To run this program, run pitchfx_detect.m.
 
 Videos were taken from two different cameras in the stadium. Each pair of frames will be similar to the following.
 ![example_frames](example_frames.png)
