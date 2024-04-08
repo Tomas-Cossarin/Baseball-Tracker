@@ -1,6 +1,10 @@
 # Baseball-Tracker
 
-The objective of this program is the track and calculate the trajectory of a baseball pitch. To run this program, run pitchfx_soup2nuts.m and select a video A and B from GameArchive_2015/GameArchive_2015.10.04.col.mlb.sfn.mlb.1_151004/Video.
+![first_image](first_image.png)
+
+The objective of this program is the track and calculate the trajectory of a baseball pitch. 
+
+To run this program, run pitchfx_soup2nuts.m and select a video A and B from GameArchive_2015/GameArchive_2015.10.04.col.mlb.sfn.mlb.1_151004/Video.
 
 **Watch this video to see it in action! ![baseball_tracker](baseball_tracker.mp4)**
 
