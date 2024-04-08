@@ -31,7 +31,7 @@ The trajectory of the ball was tracked to enhance the ball detection. The qualit
 
 ![trajectory](trajectory.png)
 
-## Step 5: Calculate the 3D trajectory
+## Step 5: Calculate the speed and 3D trajectory of the pitch
 This was done by triangulating the 3D coordinates of the ball from the two cameras.
 
 ![trajectory_3D](trajectory_3D.png)
