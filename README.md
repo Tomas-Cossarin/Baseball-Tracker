@@ -2,7 +2,7 @@
 
 ![first_image](first_image.png)
 
-The objective of this program is the track and calculate the trajectory of a baseball pitch. 
+The objective of this program is the track and calculate the trajectory of a baseball pitch as an alternative to PitchFX. 
 
 To run this program, run pitchfx_soup2nuts.m and select a video A and B from GameArchive_2015/GameArchive_2015.10.04.col.mlb.sfn.mlb.1_151004/Video.
 
@@ -28,4 +28,10 @@ A ball template was created for each camera by averaging the pixel values of sev
 
 ## Step 4: Enhance prediction from trajectory
 The trajectory of the ball was tracked to enhance the ball detection. The quality of match was artificially increased in the areas around the predicted locations of the ball based on its trajectory. An exaggerated image of how the match quality was increased is shown below.
+
 ![trajectory](trajectory.png)
+
+## Step 5: Calculate the 3D trajectory
+This was done by triangulating the 3D coordinates of the ball from the two cameras.
+
+![trajectory_3D](trajectory_3D.png)
