@@ -1,10 +1,11 @@
 # Baseball-Tracker
 
+The objective of this program is the track and calculate the trajectory of a baseball pitch.
 
 Videos were taken from two different cameras in the stadium. Each pair of frames will be similar to the following.
 ![example_frames](example_frames.png)
 
-The resolution of the videos is very low, leading the balls to appear as stripes of pixels that differ from their surroundings. THe frame rate also makes the ball appear twice in each frame.
+The resolution of the videos is very low, leading the balls to appear as stripes of pixels that differ from their surroundings. The frame rate also makes the ball appear twice in each frame.
 ![ball_close_up](ball_close_up.png)
 
 ## Step 1: Detect edges
@@ -20,5 +21,5 @@ A ball template was created for each camera by averaging the pixel values of sev
 ![detections](detections.png)
 
 ## Step 4: Enhance prediction from trajectory
-The trajectory of the ball was tracked to enhance the ball detection. The quality of match was artificially increased in the areas around the predicted locations of the ball based off its trajectory. An exaggerated image of how the match quality was increased is shown below.
+The trajectory of the ball was tracked to enhance the ball detection. The quality of match was artificially increased in the areas around the predicted locations of the ball based on its trajectory. An exaggerated image of how the match quality was increased is shown below.
 ![trajectory](trajectory.png)
